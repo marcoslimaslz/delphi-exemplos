@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/06/18 13:20:32.000.900,=C:\Users\dev2\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2020/07/10 10:07:46.000.185,=C:\Users\dev2\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2020/07/10 10:21:49.000.990,C:\Users\dev2\Documents\Embarcadero\Studio\Projects\Unit2.dfm=C:\Temp\GravarAudio\Unit2.dfm</Transaction>
+    <Transaction>2020/07/10 10:21:49.000.990,C:\Users\dev2\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Temp\GravarAudio\Unit2.pas</Transaction>
+    <Transaction>2020/07/10 10:21:54.000.651,C:\Users\dev2\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Temp\GravarAudio\Project2.dproj</Transaction>
+    <Transaction>2020/07/10 11:15:18.000.654,C:\Temp\GravarAudio\uPrincipal.dfm=C:\Temp\GravarAudio\Unit2.dfm</Transaction>
+    <Transaction>2020/07/10 11:15:18.000.654,C:\Temp\GravarAudio\uPrincipal.pas=C:\Temp\GravarAudio\Unit2.pas</Transaction>
+    <Transaction>2020/07/10 11:16:33.000.746,C:\Temp\GravarAudio\GravarAudioApp.dproj=C:\Temp\GravarAudio\Project2.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
