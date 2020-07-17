@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/06/18 13:20:32.000.900,=C:\Users\dev2\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2020/06/23 12:03:08.000.453,=C:\Users\dev2\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2020/06/23 15:41:43.000.901,C:\Users\dev2\Desktop\Gravar Exception\uPrincipal.dfm=C:\Users\dev2\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2020/06/23 15:41:43.000.901,C:\Users\dev2\Desktop\Gravar Exception\uPrincipal.pas=C:\Users\dev2\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2020/06/23 15:43:38.000.191,C:\Users\dev2\Desktop\Gravar Exception\Projeto.dproj=C:\Users\dev2\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2020/06/23 15:43:57.000.394,C:\Users\dev2\Desktop\Gravar Exception\GravarException.dproj=C:\Users\dev2\Desktop\Gravar Exception\Projeto.dproj</Transaction>
+    <Transaction>2020/06/23 16:04:48.000.090,=C:\Users\dev2\Desktop\Gravar Exception\Unit1.pas</Transaction>
+    <Transaction>2020/06/23 16:05:28.000.327,C:\Users\dev2\Desktop\Gravar Exception\uSecundario.dfm=C:\Users\dev2\Desktop\Gravar Exception\Unit1.dfm</Transaction>
+    <Transaction>2020/06/23 16:05:28.000.327,C:\Users\dev2\Desktop\Gravar Exception\uSecundario.pas=C:\Users\dev2\Desktop\Gravar Exception\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
