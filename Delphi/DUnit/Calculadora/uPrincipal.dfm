@@ -1,0 +1,107 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 0
+  Top = 0
+  BorderStyle = bsDialog
+  Caption = 'Calculadora - DUnit'
+  ClientHeight = 144
+  ClientWidth = 214
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object edtA: TEdit
+    Left = 15
+    Top = 12
+    Width = 121
+    Height = 21
+    MaxLength = 10
+    TabOrder = 0
+    Text = '100'
+    OnKeyPress = edtAKeyPress
+  end
+  object edtB: TEdit
+    Left = 15
+    Top = 39
+    Width = 121
+    Height = 21
+    MaxLength = 10
+    TabOrder = 1
+    Text = '5'
+    OnKeyPress = edtAKeyPress
+  end
+  object edtResultado: TEdit
+    Left = 15
+    Top = 66
+    Width = 121
+    Height = 21
+    MaxLength = 10
+    ReadOnly = True
+    TabOrder = 2
+  end
+  object btnSomar: TButton
+    Left = 142
+    Top = 10
+    Width = 60
+    Height = 25
+    Caption = '&Somar'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+    OnClick = btnSomarClick
+  end
+  object btnSubtrair: TButton
+    Left = 142
+    Top = 41
+    Width = 60
+    Height = 25
+    Caption = 'S&ubtrair'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 4
+    OnClick = btnSubtrairClick
+  end
+  object btnMultiplicar: TButton
+    Left = 142
+    Top = 72
+    Width = 60
+    Height = 25
+    Caption = '&Multiplicar'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 5
+    OnClick = btnMultiplicarClick
+  end
+  object btnDividir: TButton
+    Left = 142
+    Top = 103
+    Width = 60
+    Height = 25
+    Caption = '&Dividir'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 6
+    OnClick = btnDividirClick
+  end
+end

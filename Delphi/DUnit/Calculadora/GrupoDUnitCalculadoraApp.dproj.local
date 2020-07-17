@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2020/07/17 13:51:42.183,C:\Temp\DUnit\Calculadora\GrupoDUnitCalculadoraApp.dproj=C:\Users\dev2\Documents\Embarcadero\Studio\Projects\ProjectGroup1.groupproj</Transaction>
+  </Transactions>
+  <Default.Personality>
+    <Projects ActiveProject="C:\Temp\DUnit\Calculadora\Test\DUnitCalculadoraAppTests.dproj"/>
+  </Default.Personality>
+</BorlandProject>

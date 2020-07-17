@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{AB06D10D-1DAA-4716-8956-5B98E6830840}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="DUnitCalculadoraApp.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Test\DUnitCalculadoraAppTests.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="DUnitCalculadoraApp">
+        <MSBuild Projects="DUnitCalculadoraApp.dproj"/>
+    </Target>
+    <Target Name="DUnitCalculadoraApp:Clean">
+        <MSBuild Projects="DUnitCalculadoraApp.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DUnitCalculadoraApp:Make">
+        <MSBuild Projects="DUnitCalculadoraApp.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DUnitCalculadoraAppTests">
+        <MSBuild Projects="Test\DUnitCalculadoraAppTests.dproj"/>
+    </Target>
+    <Target Name="DUnitCalculadoraAppTests:Clean">
+        <MSBuild Projects="Test\DUnitCalculadoraAppTests.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DUnitCalculadoraAppTests:Make">
+        <MSBuild Projects="Test\DUnitCalculadoraAppTests.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="DUnitCalculadoraApp;DUnitCalculadoraAppTests"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="DUnitCalculadoraApp:Clean;DUnitCalculadoraAppTests:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="DUnitCalculadoraApp:Make;DUnitCalculadoraAppTests:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
